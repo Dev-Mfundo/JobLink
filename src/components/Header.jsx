@@ -22,7 +22,6 @@ const Header = () => {
         </div>
         <ul className={isMenuOpen ? 'open' : ''}>
           <li><a href="/Home"><i><img src='/icons/home.png' className='home-icon' alt=''/></i></a></li>
-          <li><a href="/upload-resume"><i><img src='/icons/upload.png' className='upload-icon' alt=''/></i></a></li>
           <li><a href="/sign-in" className="loginBtn">Login</a></li>
           <li><a href="/employers" className="employer-link">Post Job</a></li>
         </ul>
