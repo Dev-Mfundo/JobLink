@@ -109,7 +109,12 @@
     padding: 4px;
     margin: 7px;
   }
-
+  .toggleBar:hover{
+    outline: 1px solid #003580;
+  }
+  .toggleBar:active{
+    outline: 1px solid green;
+  }
   .nav-menu ul {
     display: none;
     background-color: #003580;
@@ -175,7 +180,6 @@
   padding: 10px 15px;
   background-color: #003580;
   color: white;
-  outline: 1px solid #003580;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -184,8 +188,7 @@
   transition: 0.3s;
 }
 .search-bar button:hover{
-  box-shadow: none;
-  outline: 1px solid #ffff;
+  background-color: #005bb5;
 }
 .search-bar button:active{
   outline: 1px solid green;
@@ -317,6 +320,78 @@
   .apply-button {
     top: 30px;
   }
+}
+
+/*FORMS*/
+
+.auth-user {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #003580;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #003580;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.submit-btn:hover {
+  background-color: #005bb5;
+}
+
+p {
+  text-align: center;
+}
+
+p button {
+  background: none;
+  border: none;
+  color: #0073e6;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+p button:hover {
+  color: #005bb5;
+}
+p button:active{
+  color: green;
 }
 
 
