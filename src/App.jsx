@@ -1,13 +1,17 @@
 import './App.css'
 import Header from './components/Header'
-import Hero from './components/Hero'
+import JobListing from './components/JobListing'
+import Search from './components/Search'
 import Footer from './components/Footer'
 function App() {
   return(
     <>
+    <header>
     <Header/>
+    <Search/>
+    </header>
     <main>
-      <Hero/>
+    <JobListing/>
     </main>
     <Footer/>
     </>
