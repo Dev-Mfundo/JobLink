@@ -1,6 +1,6 @@
 JobLink - Job Board Platform
 
-Website: https://job-link-mxa3.vercel.app
+
 
 JobLink is a dynamic job board platform designed to connect job seekers with employers by providing a streamlined experience for posting job listings and applying for positions. This project focuses on creating an efficient and user-friendly interface for both job seekers and employers.
 
